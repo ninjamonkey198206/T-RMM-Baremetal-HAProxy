@@ -14,5 +14,5 @@ sudo ln -s /etc/letsencrypt/live/(domain)/privkey.pem /etc/ssl/private/privkey.p
 
 Make sure to create DH pem:
 ```text
-sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 ```
