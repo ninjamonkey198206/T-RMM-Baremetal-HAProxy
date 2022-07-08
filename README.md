@@ -1,5 +1,7 @@
 # T-RMM-Baremetal-HAProxy
 
+## Do NOT disable nginx proxy on the T-RMM instance. This assumes it is in place and functional.
+
 T-RMM config for HAProxy on bare metal.
 
 Assumes fresh install of HAProxy before any configuartion
